@@ -1,0 +1,7 @@
+api_key = "<%= node['appcanary']['agent']['api_key'] %>"
+
+[[files]]
+<% case node['platform'] %>
+<% when 'ubuntu', 'debian' %>
+path = "/var/lib/dpkg/status"
+<% end %>
