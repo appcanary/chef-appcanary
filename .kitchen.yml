@@ -17,3 +17,6 @@ suites:
       appcanary:
         agent:
           api_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          paths:
+            - /var/www/someapp/current/Gemfile.lock
+            - /var/www/someapp2/current/Gemfile.lock

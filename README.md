@@ -12,7 +12,8 @@ Reports vulnerabilities for Ubuntu servers and Ruby applications.
 
 | Key                                 | Type     | Description                              | Default     |
 | ----------------------------------- | -------- | ---------------------------------------- | -----------:|
-| `['appcanary']['agent']['api_key']` | String   | API Key (https://appcanary.com/settings) | `xxxxxxxxx` |
+| `['appcanary']['agent']['api_key']` | String   | API Key (https://appcanary.com/settings) | `nil`       |
+| `['appcanary']['agent']['paths]`    | Array    | Paths to Gemfiles                        | `nil`       |
 
 
 ## Usage
@@ -32,4 +33,3 @@ Include `appcanary` in your node's `run_list`:
 ## License and Authors
 
 Author: Michael MacLeod (<mikemacleod@gmail.com>)
-Test Kitchen shamelessly cribbed from Justin Alan Ryan (<bitmonk@icloud.com>)
