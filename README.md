@@ -13,7 +13,7 @@ Reports vulnerabilities for Ubuntu servers and Ruby applications.
 | Key                                 | Type     | Description                              | Default     |
 | ----------------------------------- | -------- | ---------------------------------------- | -----------:|
 | `['appcanary']['agent']['api_key']` | String   | API Key (https://appcanary.com/settings) | `nil`       |
-| `['appcanary']['agent']['paths]`    | Array    | Paths to Gemfiles                        | `nil`       |
+| `['appcanary']['agent']['paths']`    | Array    | Paths to Gemfiles                        | `nil`       |
 
 
 ## Usage

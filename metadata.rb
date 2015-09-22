@@ -5,6 +5,6 @@ license 'GPLv3'
 description 'Installs/Configures appcanary'
 long_description 'Installs/Configures appcanary'
 source_url       'https://github.com/appcanary/chef-appcanary'
-version '0.1.8'
+version '0.2.0'
 
 depends 'packagecloud', '~> 0.0.19'
