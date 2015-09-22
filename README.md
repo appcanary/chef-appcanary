@@ -30,6 +30,8 @@ Include `appcanary` in your node's `run_list`:
 }
 ```
 
-## License and Authors
+## Authors
 
 Author: Michael MacLeod (<mikemacleod@gmail.com>)
+
+With thanks to Justin Alan Ryan and Joe Damato, who contributed earlier versions.
