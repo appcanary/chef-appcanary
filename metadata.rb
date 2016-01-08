@@ -7,6 +7,6 @@ long_description 'Installs/Configures appcanary'
 if respond_to?(:source_url)
   source_url       'https://github.com/appcanary/chef-appcanary'
 end
-version '0.2.0'
+version '0.3.0'
 
 depends 'packagecloud', '~> 0.0.19'
