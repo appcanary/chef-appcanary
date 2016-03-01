@@ -1,3 +1,6 @@
+# 0.3.1
+Added support for CentOS 7.
+
 # 0.1.1
 
 Added support for additional paths - now supports Gemfiles!
