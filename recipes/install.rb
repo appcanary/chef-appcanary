@@ -9,7 +9,7 @@ packagecloud_repo "appcanary/agent" do
   case node['platform']
   when 'ubuntu', 'debian'
     type "deb"
-  when 'redhat', 'centos', 'fedora'
+  when 'centos', 'redhat', 'amazon', 'scientific', 'oracle'
     type "rpm"
   end
 end
