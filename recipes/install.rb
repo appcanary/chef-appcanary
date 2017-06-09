@@ -14,4 +14,6 @@ packagecloud_repo "appcanary/agent" do
   end
 end
 
-package 'appcanary'
+package 'appcanary' do
+  action :upgrade
+end
